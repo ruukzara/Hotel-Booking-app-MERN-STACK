@@ -1,0 +1,137 @@
+.hotel-city-card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.hotelall-image {
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.hotelall-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hotel-image-container {
+  position: relative;
+}
+
+.hotel-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  filter: brightness(70%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.hotel-image:hover {
+  filter: brightness(100%);
+}
+
+.hotel-details {
+  padding: 15px;
+}
+
+.hotel-location {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 12px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 15px;
+  left: 160px;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.wishlist-active {
+  color: red;
+}
+
+.heartify {
+  color: white;
+}
+
+.hotelall-price {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  position: absolute;
+  right: 15px;
+  bottom: 45px;
+  color: green;
+}
+
+.hotelall-distance {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.fa-circle-dot {
+  font-size: 12px;
+}
+
+.room-details button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+.room-details button:hover {
+  background-color: #0056b3;
+}
+
+.hotelall-options {
+
+  font-size: 12px;
+  color: dimgrey;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Adjust the gap as needed */
+}
+
+.options-container .option {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between icon and text */
+}
+
+
+
+.room-details-main h2,
+h3 {
+  font-size: 14px !important;
+}
+
+.room-details-main p {
+  font-size: 14px;
+}

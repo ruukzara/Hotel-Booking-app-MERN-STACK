@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ededed;
+  margin: 0;
+}
+
+.navbar {
+  background: #f9f9f9;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+  color: blue;
+}
+
+.navbar-logo img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: blue;
+  transition: all 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #f76707;
+}
+
+.register-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 10px 5px 3px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #0104c5;
+  border-radius: 5px;
+  margin: 25px 5px 15px 5px;
+}
+
+.login-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 10px 5px 3px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #0104c5;
+  border-radius: 5px;
+  margin: 25px 5px 15px 5px;
+}
+
+.register-links:hover,
+.login-links:hover {
+  background-color: #0415aa;
+  /* Darker shade on hover */
+  color: #fff;
+}
+
+/* Add these styles to your existing CSS */
+
+.logout-button {
+  background-color: #1976D2;
+  /* Logout button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.logout-button i {
+  margin-right: 8px;
+}
+
+.logout-button:hover {
+  background-color: #0a55a0;
+  /* Darker shade on hover */
+}
+
+.logout-button:active {
+  opacity: 0.8;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 25px;
+}
+
+.navbar-link {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+/* Custom dropdown menu */
+.custom-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  border-radius: 4px;
+  width: 180px;
+}
+
+.show {
+  display: block;
+}
+
+/* Custom dropdown items */
+.custom-dropdown-item {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.custom-dropdown-item a {
+  text-decoration: none;
+  color: #333;
+  font-family: fangsong;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+}
+
+.custom-dropdown-item a:hover {
+  color: #007bff;
+  padding: auto 20px;
+}
+
+.custom-dropdown-item:hover {
+  background-color: #a1a3a552;
+  padding: auto 20px;
+}
+
+/* Custom dropdown divider */
+.custom-dropdown-divider {
+  border-top: 1px solid #e5e5e5;
+  margin: 10px 0;
+}
+
+/* Custom logout button */
+.custom-logout-button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.2s ease-in-out;
+}
+
+.custom-logout-button:hover {
+  color: #0056b3;
+}
+
+.custom-logout-button i {
+  margin-right: 8px;
+}
+
+.navbar-links-menu {
+  font-size: 16px;
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+
+/* Styling for the responsive menu */
+@media screen and (max-width: 1326px) {
+  .home-container {
+    background-image: url(W3eybF.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 140vh;
+    display: block;
+  }
+  .nav-item-block {
+    display: none !important;
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+  .navbar-links-menu {
+    color: white;
+  }
+
+  .navbar {
+    transition: 0.8s all ease;
+  }
+
+  .search-bar {
+    margin-top: 192px;
+  }
+
+  .home-container {
+    background-image: url(W3eybF.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 140vh;
+    display: block;
+  }
+  .nav-item-block {
+    display: block !important;
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 80px;
+    opacity: 1;
+    background-color: #1c1c1c;
+    z-index: 1;
+    transition: all 0.5s ease;
+    margin-left: -25px;
+
+  }
+
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+  }
+
+  .nav-item {
+    height: 60px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-item:last-child {
+    border-bottom: none;
+
+  }
+
+  .nav-links {
+    text-align: center;
+    width: 100%;
+    display: table;
+    margin-top: 30px;
+    color: white;
+
+  }
+
+  .nav-links:hover {
+    background-color: #f76707;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+
+  .app-message {
+    font-size: 50px !important;
+  }
+}

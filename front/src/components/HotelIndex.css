@@ -1,0 +1,64 @@
+.featured-tag {
+  position: absolute;
+  top: 16px;
+  left: -16px;
+  background-color: #e40000;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.featured-tag::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color:  #e40000;
+  transform: rotate(45deg);
+  top: 5px;
+  left: 0;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.featured-tag::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color:  #e40000;
+  transform: rotate(45deg);
+  bottom: 0;
+  left: 0;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.hotel-card:hover .featured-tag {
+  display: block;
+  /* Show the tag on hover */
+  opacity: 1;
+  /* Fade in the tag */
+}
+
+.hotel-card {
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  background-color: #d2d2d2;
+
+}
+
+.hotelcity-image-container img {
+  border: 2px solid #e72828ce; /* Add the border to the images */
+}
+
+

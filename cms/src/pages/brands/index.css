@@ -1,0 +1,280 @@
+.brands-header {
+  margin: 90px 150px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.brands-list {
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-brands{
+  margin-left: 30%;
+}
+
+.add-brand-button button {
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.add-brand-button button i {
+  margin-right: 10px;
+}
+
+.add-brand-button button:hover {
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.brands-data h5 {
+  text-align: center;
+}
+
+.brands-data-table {
+  padding-bottom: 30px;
+}
+
+.name-input input[type="text"],
+.password-input input[type="password"],
+.email-input input[type="email"] {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  text-indent: 10px;
+  width: 350px;
+}
+
+.create-login-form {
+    width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 100px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 80px auto 0;
+    height: 350px;
+  }
+
+.password-login-form {
+  width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 100px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.create-form,
+password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 490px;
+}
+
+.create-form div,
+.password-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-label,
+.password-label {
+  margin-bottom: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-form label,
+.password-form label {
+  font-weight: bold;
+  margin:10px 0 0 5px;
+}
+
+.create-form button[type="submit"],
+.password-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-form button[type="submit"]:hover,
+.password-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.switch-container-2 {
+  right: 0;
+}
+.switch-block-1{
+  margin-right: 295px;
+
+}
+.status-label-1 {
+  margin-top: 0;
+}
+
+.edit-brand-login-form{
+  width: 600px;
+  padding: 30px 130px 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 375px;
+  margin-top: 80px;
+  margin-left: 360px;
+}
+
+.password-login-form {
+  width: 600px;
+  padding: 30px 130px 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 360px;
+  margin-top: 80px;
+  margin-left: 360px;
+}
+
+.edit-form,
+password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.edit-brand-form div,
+.password-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.edit-brand-label,
+.password-label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-brand-form label,
+.password-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-brand-form input[type="text"],
+.password-form input[type="password"],
+.email-form input[type="email"] {
+  padding: 10px;
+  width: 350px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-brand-form button[type="submit"],
+.password-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-brand-form button[type="submit"]:hover,
+.password-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.brand-switch-container {
+  margin-right: 292px;
+}
+
+.brand-status-label-1 {
+  margin-top: 0px;
+}
+
+.brand-status-label-2 {
+  margin-bottom: 0px;
+  margin-top: -5px;
+}
+
+.upload-input-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.upload-input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #e0e0e0;
+}
+
+.upload-button:active {
+  transform: translateY(1px);
+}
+
+.upload-filename {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}

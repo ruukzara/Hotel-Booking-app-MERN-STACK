@@ -1,0 +1,238 @@
+.customers-header {
+  margin: 90px 150px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.customers-list {
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-customer-button button {
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.add-customer-button button i {
+  margin-right: 10px;
+}
+
+.add-customer-button button:hover {
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.customers-data h5 {
+  text-align: center;
+}
+
+.customers-data-table {
+  padding-bottom: 30px;
+}
+
+.name-input input[type="text"],
+.name-input-1 input[type="text"],
+.password-input input[type="password"],
+.email-input input[type="email"] {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  text-indent: 10px;
+  width: 350px;
+}
+
+.create-login-form {
+    width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 100px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 80px auto 0;
+    height: 600px;
+  }
+
+.password-login-form {
+  width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 100px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.create-form,
+password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 490px;
+}
+
+.create-form div,
+.password-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-label,
+.password-label {
+  margin-bottom: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-form label,
+.password-form label {
+  font-weight: bold;
+  margin:10px 0 0 5px;
+}
+
+.create-form button[type="submit"],
+.password-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-form button[type="submit"]:hover,
+.password-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.switch-container {
+  margin-right: 292px;
+}
+
+.status-label-1 {
+  margin-top: 0;
+}
+
+.edit-customer-login-form{
+  width: 600px;
+  padding: 30px 130px 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 520px;
+  margin-top: 80px;
+  margin-left: 360px;
+}
+
+.password-login-form {
+  width: 600px;
+  padding: 30px 130px 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 360px;
+  margin-top: 80px;
+  margin-left: 360px;
+}
+
+.edit-form,
+password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.edit-customer-form div,
+.password-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.edit-customer-label,
+.password-label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-customer-form label,
+.password-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-customer-form input[type="text"],
+.password-form input[type="password"],
+.email-form input[type="email"] {
+  padding: 10px;
+  width: 350px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-customer-form button[type="submit"],
+.password-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-customer-form button[type="submit"]:hover,
+.password-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.customer-switch-container {
+  margin-right: 292px;
+}
+
+.customer-status-label-1 {
+  margin-top: 0px;
+}
+
+.customer-status-label-2 {
+  margin-bottom: 0px;
+  margin-top: -5px;
+}
+
+.edit-customers{
+  margin-left: 10%;
+}
+

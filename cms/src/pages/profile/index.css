@@ -1,0 +1,73 @@
+.edit-login-form{
+  width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin:80px auto 0;
+  height: 460px !important;
+}
+.password-login-form {
+  width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin:80px auto 0;
+  height: 395px !important;
+}
+
+.edit-form, password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.edit-form div, .password-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.edit-label, .password-label{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-form label, .password-form label  {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-form input[type="text"], 
+.password-form input[type="password"], 
+.email-form input[type="email"] {
+  padding: 10px;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-form button[type="submit"], .password-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-form button[type="submit"]:hover, .password-form button[type="submit"]:hover  {
+  background-color: #45a049;
+}

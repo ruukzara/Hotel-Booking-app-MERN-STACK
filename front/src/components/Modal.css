@@ -1,0 +1,152 @@
+.modal-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 54.55% !important;
+    /* Adjust this value as needed */
+}
+
+/* ... Other styles ... */
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.modal-title {
+    margin: 0;
+    padding-left: 16px;
+}
+
+.modal-close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transform: translate(679px, -23px);
+}
+
+.modal-body {
+    padding: 16px;
+    max-height: 450px;
+    overflow: auto;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.amenities {
+    flex: 1;
+}
+
+.price-info.card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    font-family: fantasy;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.price-label,
+.price-value {
+    margin: 0;
+}
+
+.reserve-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    width: 60%;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.reserve-button:hover {
+    background-color: #0056b3;
+}
+
+.fa-right-long{
+    padding-right: 5px;
+    color: blue;
+}
+
+.room-number {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  .room-number input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .room-numbers {
+    /* Your existing styles */
+    position: relative;
+}
+
+.room-list {
+    /* Ensure a fixed height for the room list */
+    height: 200px; /* Adjust the height as needed */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}
+
+.error-message-1 {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 130px; /* Adjust the distance from the bottom */
+    left: 0;
+}
+
